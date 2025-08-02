@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 export default function TermsAndConditionsPage() {
   const [activeSection, setActiveSection] = useState('general');
@@ -288,13 +289,13 @@ export default function TermsAndConditionsPage() {
             fontSize: '0.9rem'
           }}>
             © 2024 News Hub. All rights reserved. | 
-            <a href="/user/userProfile" style={{ 
+            <Link href="/user/userProfile" style={{ 
               color: 'rgba(255,255,255,0.9)', 
               textDecoration: 'none',
               marginLeft: '0.5rem'
             }}>
               Back to Profile
-            </a>
+            </Link>
           </p>
         </div>
       </div>
