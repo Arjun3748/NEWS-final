@@ -1,4 +1,4 @@
-import NewsCard from '../../../../components/NewsCard';
+import NewsCard from '../../components/NewsCard';
 
 export default function UserNewsPage({ params }) {
   const { id } = params;

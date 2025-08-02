@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import CreateForm from '../../../../components/CreateForm';
+import CreateForm from '../../components/CreateForm';
 
 export default function AdminCreatePage() {
   const router = useRouter();
